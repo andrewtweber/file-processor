@@ -1,0 +1,49 @@
+{
+    "name": "andrewtweber/file-processor",
+    "type": "library",
+    "description": "Image and file uploader",
+    "keywords": [
+        "laravel",
+        "images",
+        "files",
+        "helpers",
+        "traits"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Weber",
+            "homepage": "https://andrew.cool"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "abeautifulsite/simpleimage": "^4.2",
+        "laravel/framework": "^8.12|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^1.0",
+        "orchestra/testbench": "^6.17",
+        "phpunit/phpunit": "^9"
+    },
+    "suggest": {
+        "ext-exif": "Needed for EXIF service",
+        "vimeo/psalm": "For code sanity"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "FileProcessor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FileProcessor\\Tests\\": "tests/"
+        }
+    }
+}
