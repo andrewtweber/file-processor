@@ -3,7 +3,7 @@
 namespace FileProcessor\Models;
 
 use FileProcessor\Concerns\ImageFile;
-use FileProcessor\Concerns\ImageFileContract;
+use FileProcessor\Contracts\ImageFileContract;
 use FileProcessor\Contracts\HasPhotosContract;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

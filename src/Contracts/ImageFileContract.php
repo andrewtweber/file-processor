@@ -1,6 +1,6 @@
 <?php
 
-namespace FileProcessor\Concerns;
+namespace FileProcessor\Contracts;
 
 interface ImageFileContract
 {
